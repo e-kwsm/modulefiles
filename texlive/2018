@@ -1,0 +1,5 @@
+#%Module
+set prefix /opt/texlive/2018
+prepend-path PATH $prefix/bin/x86_64-linux
+prepend-path MANPATH $prefix/texmf-dist/doc/man
+set-alias luajitlatex "luajittex --fmt=luajitlatex.fmt"
