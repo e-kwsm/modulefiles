@@ -1,12 +1,8 @@
 #%Module
-set year 2018
+set year 2019
 set prefix /opt/texlive/$year
 
 prepend-path PATH    $prefix/bin/x86_64-linux
 prepend-path MANPATH $prefix/texmf-dist/doc/man
-
-setenv TEXMFCONFIG $::env(XDG_CONFIG_HOME)/texlive/$year/config
-setenv TEXMFHOME   $::env(XDG_CONFIG_HOME)/texmf
-setenv TEXMFVAR    $::env(XDG_DATA_HOME)/texlive/$year/var
 
 set-alias luajitlatex "luajittex --fmt=luajitlatex.fmt"
