@@ -1,0 +1,4 @@
+#%Module
+# https://deno.land/#installation
+setenv DENO_INSTALL_ROOT $::env(HOME)/.local/share/deno
+append-path PATH $::env(DENO_INSTALL_ROOT)/bin
