@@ -5,4 +5,4 @@ prepend-path MANPATH $prefix/share/man
 set-alias vi nvim
 set-alias view {nvim -R}
 set-alias vimdiff {nvim -d}
-setenv EDITOR $prefix/bin/nvim
+pushenv EDITOR nvim
