@@ -4,5 +4,5 @@ prepend-path PATH $prefix/bin
 prepend-path MANPATH $prefix/share/man
 set-alias vi nvim
 set-alias view {nvim -R}
-set-alias vimdiff {nvim -d}
+set-alias vimdiff {nvim -d -c "set noautoread"}
 pushenv EDITOR nvim
