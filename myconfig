@@ -1,6 +1,7 @@
 #%Module
 append-path PATH $::env(HOME)/bin
 append-path PATH $::env(HOME)/.local/bin
+append-path PATH $::env(HOME)/.cargo/bin
 
 set GREP_OPTIONS "-I --color=auto"
 
