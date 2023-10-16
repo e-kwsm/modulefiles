@@ -37,3 +37,5 @@ setenv PAGER less
 setenv READNULLCMD less
 setenv TERM xterm-256color
 setenv TIME_STYLE long-iso
+
+# vi: ft=tcl
