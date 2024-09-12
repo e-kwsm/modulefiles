@@ -2,6 +2,6 @@
 # https://deno.land/#installation
 set deno_install_root $::env(HOME)/.local/share/deno
 setenv DENO_INSTALL_ROOT $deno_install_root
-append-path PATH $deno_install_root/bin
+prepend-path PATH $deno_install_root/bin
 
 # vi:ft=tcl
