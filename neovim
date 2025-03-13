@@ -6,5 +6,6 @@ set-alias vi nvim
 set-alias view {nvim -R}
 set-alias vimdiff {nvim -d -c "set noautoread"}
 pushenv EDITOR nvim
+pushenv SUDO_EDITOR {nvim --clean}
 
 # vi: ft=tcl
