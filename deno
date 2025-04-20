@@ -1,6 +1,6 @@
 #%Module
 # https://deno.land/#installation
-set deno_install_root $::env(HOME)/.local/share/deno
+set deno_install_root $::env(XDG_DATA_HOME)/deno
 setenv DENO_INSTALL_ROOT $deno_install_root
 prepend-path PATH $deno_install_root/bin
 
