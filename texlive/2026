@@ -1,5 +1,5 @@
 #%Module
-set year 2024
+set year 2026
 set prefix /opt/texlive/$year
 
 prepend-path PATH    $prefix/bin/x86_64-linux
